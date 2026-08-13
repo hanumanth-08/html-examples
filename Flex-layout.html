@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex row layout</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+            justify-content: center;
+
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid blue;
+
+        }
+        .box img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>rose gallery - flex row layout </h2>
+    <div class="container">
+       <div class="box"><img src="tulip.JPG" alt="red rose"</div>
+       <div class="box"><img src="tulip.JPG" alt="red rose"</div>
+       <div class="box"><img src="tulip.JPG" alt="red rose"</div>
+    </div>
+</body>
+</html>
